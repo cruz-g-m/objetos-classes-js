@@ -5,7 +5,7 @@
  * gasto em reais para realizar este percurso
  */
 
-class Carros{
+class Carro{
     marca;
     cor;
     gastoPorKm;
@@ -25,13 +25,13 @@ class Carros{
     }
 }
 
-const bmw = new Carros('BMW', 'Amarelo', 1/12);
+const bmw = new Carro('BMW', 'Amarelo', 1/12);
 bmw.descrever();
 console.log(`Em uma viagem de 100km você gastará R$` + bmw.calcularViagem(100, 4.0).toFixed(2));
 
 console.log('==================//====================')
 
-const palio = new Carros('Palio', 'Prata', 1/15);
+const palio = new Carro('Palio', 'Prata', 1/15);
 palio.descrever();
 console.log(`Em uma viagem de 100km você gastará R$` + palio.calcularViagem(100, 4.0).toFixed(2));
 
