@@ -42,12 +42,18 @@ class Pessoa{
     }
 }
 
-const guilherme = new Pessoa('Guilherme', 95, 1.70);
+const guilherme = new Pessoa('Guilherme', 90, 1.70);
 guilherme.descrever();
 console.log('O Indice de massa corporal é: ' + guilherme.calcularImc().toFixed(2) + ' ' + guilherme.classificarImc());
 
 console.log('======================//====================')
 
-const gabriela = new Pessoa('Gabriela', 52, 1.55);
+const gabriela = new Pessoa('Gabriela', 50, 1.60);
 gabriela.descrever();
 console.log('O Indice de massa corporal é: ' + gabriela.calcularImc().toFixed(2) + ' ' + gabriela.classificarImc());
+
+console.log('======================//=====================')
+
+const lisandra = new Pessoa('Lisandra', 65, 1.55)
+lisandra.descrever();
+console.log('O Indice de massa corporal é: ' + lisandra.calcularImc().toFixed(2) + ' ' + lisandra.classificarImc());
